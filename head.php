@@ -3,13 +3,13 @@
 <head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>30-Day Responsive Layout Challenge</title>
+		<title>Responsive Layouts Collection</title>
 		<meta
 			name="og:description"
 			content="Improving Responsive Layouts One Day at a Time"
 		/>
 	
-		<meta property="og:title" content="30 Day Responsive Layout Challenge" />
+		<meta property="og:title" content="Responsive Layouts Collection" />
 		<meta property="og:type" content="">
 		<meta property="og:url" content="">
 
