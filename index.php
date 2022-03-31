@@ -30,6 +30,13 @@
 		</inner-column>
 	</section>
 
+	<section class='page-section arrive'>
+		<inner-column>
+			<?php include('modules/arrive.php'); ?> 
+		</inner-column>
+	</section>
+
+
 	<section class='page-section slack'>
 		<inner-column>
 			<?php include('modules/slack.php'); ?> 
