@@ -30,6 +30,13 @@
 		</inner-column>
 	</section>
 
+	<section class='page-section color-huddle'>
+		<inner-column>
+			<?php include('modules/colorhuddle.php'); ?> 
+		</inner-column>
+	</section> 
+
+
 	<section class='page-section arrive'>
 		<inner-column>
 			<?php include('modules/arrive.php'); ?> 
