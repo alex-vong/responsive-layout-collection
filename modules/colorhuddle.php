@@ -20,7 +20,7 @@
 
             <cta-image>
                 <picture>
-                    <img src="../images/no-face.svg" alt="">
+                    <img src="images/no-face.svg" alt="">
                 </picture>
             </cta-image>
     	</cta>
@@ -35,7 +35,7 @@
 
             <cta-image>
                 <picture>
-                    <img src="../images/mushroom-skull.svg" alt="">
+                    <img src="images/skull.svg" alt="">
                 </picture>
             </cta-image>
         </cta>
