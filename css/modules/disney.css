@@ -1,0 +1,80 @@
+.disney .container {
+   background-color: #0a193c;
+   color:  var(--white);
+
+   display: flex;
+   flex-direction: column;
+   gap:  20px;
+
+}
+
+
+.disney .container h2.intro-voice {
+   font-size: 25px;
+   text-align: center;
+   font-weight: 500;
+}
+
+
+.disney .container div {
+   display: flex;
+   flex-direction: column;
+   gap:  40px;
+}
+
+.movie-grid {
+   gap:  20px;
+   width:  95%;
+   margin:  auto;
+
+}
+
+.disney .container .movie-card {
+   gap:  8px;
+   text-align: center;
+   }
+
+.disney .container .movie-card p {
+   max-width:  80%;
+   margin:  auto;
+}
+
+
+
+.disney .container .movie-card a {
+   margin-top: 10px;
+   text-transform: uppercase;
+   text-decoration: underline;
+
+   align-self: center;
+   align-items: flex-end;
+}
+
+.disney picture img:hover {
+   transition: all .2s ease-in-out; 
+   transform: scale(1.01);
+   overflow: hidden;
+}
+
+@media (min-width: 768px) {
+
+   .disney .container div{
+      gap:  20px;
+   }
+
+
+   .disney .container .movie-grid {
+      flex-direction: row;
+       width:  95%;
+   }
+
+}
+
+@media (min-width: 1024px) {
+
+   .disney .container .movie-grid {
+      flex-direction: row;
+       width:  85%;
+   }
+
+}

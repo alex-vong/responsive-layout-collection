@@ -1,0 +1,88 @@
+html {
+   --pxl-black:  #212121;
+   --pxl-font:  #4c4c4c;
+
+}
+
+.pxl {
+   overflow-x: hidden;
+   color:  var(--pxl-font);
+
+}
+
+.pxl .container .pxl-card-grid {
+  display: flex;
+  flex-direction: column;
+  gap:  60px;
+}
+
+.pxl-cards {
+   display:  flex;
+   flex-direction: column;
+   gap:  30px;
+}
+
+
+.pxl-cards .pxl-card-details {
+
+   display:  flex;
+   flex-direction: column;
+   gap:  15px;
+
+}
+
+@media (min-width: 768px) {
+   .pxl-cards {
+      display:  grid;
+      grid-template-columns: repeat(2, 1fr );
+      gap:  30px;
+   }
+   .pxl-cards:nth-child(even) .pxl-card-details {
+      order: -1;
+   }
+
+   .pxl-cards .pxl-card-details {
+      padding:  40px;
+   }
+
+   }
+
+   .pxl-card-details .quiet-voice {
+      margin-top:  0;
+      line-height: 1.5;
+   }
+
+
+   .u-review picture img, .quiz-game picture img {
+      max-width:  60%;
+      margin:  auto;
+   }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

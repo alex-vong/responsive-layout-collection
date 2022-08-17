@@ -1,0 +1,169 @@
+.atmosphere .container {
+   background-color: black;
+   color:  var(--white);
+
+   padding:  30px;
+}
+
+.atmosphere .diptych {
+   display:  flex;
+   flex-direction: column;
+
+}
+
+.atmosphere .diptych-text p {
+   color:  #a3a3a3;
+}
+
+.little-border-thing {
+   background-color: #ff585d;
+   height:  2px;
+   width:  30px;
+}
+
+.diptych-text h2 {
+   text-transform: uppercase;
+   padding:  10px 0;
+
+}
+
+.diptych-text h2 span {
+   color:  #00a3fb;
+}
+
+.diptych-text p {
+   padding:  10px 0;
+}
+
+info-card {
+   display:  flex;
+   flex-direction: column;
+   gap:  10px;
+   border-left:  2px solid #ff585d;
+
+   padding: 0 15px 25px;
+}
+
+info-card .attention-voice {
+   text-transform: uppercase;
+   font-weight:  700;
+}
+
+info-card + info-card {
+   margin-top: 20px;
+}
+
+
+
+@media (min-width:  768px) {
+   .info-cards {
+      display:  flex;
+      flex-direction: row;
+      margin:  20px 0;
+
+   }
+   info-card + info-card {
+      margin-top: 0;
+   }
+}
+
+
+@media (min-width: 1000px ){
+
+   .atmosphere .diptych {
+      flex-direction: row;
+      margin-bottom: 40px;
+   }
+
+   .atmosphere .diptych-text {
+      display:  flex;
+      flex-direction:  column;
+      justify-content: center;
+      padding:  0 25px;
+
+      width:  35%;
+
+
+
+
+   }
+
+   .atmosphere .diptych picture {
+      width:  65%;
+   }
+
+
+}
+
+
+/*reversed*/
+
+.atmosphere-reverse {
+   margin-top:  30px;
+}
+
+.atmosphere .reverse .diptych-text {
+   order: -1;
+}
+
+
+@media (min-width: 1000px) {
+   .atm-reverse {
+      display:  flex;
+      flex-direction: row;
+   }
+
+   .atmosphere .atm-reverse .diptych-text {
+      width: 100%;
+      padding:  0;
+   }
+
+   .atmosphere .atm-reverse .diptych-text h2 {
+      padding:  0;
+   }
+
+   .atmosphere .atm-reverse picture {
+      width:  90%;
+   }
+
+
+   .atmosphere .reverse {
+      flex-direction:  column;
+      width:  65%;
+   }
+
+   .atmosphere .atm-reverse .info-cards {
+      width:  30%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

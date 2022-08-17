@@ -1,0 +1,88 @@
+
+
+.arrive .container {
+   display:  flex;
+   flex-direction: column;
+   padding:  0;
+
+   gap:  20px;
+
+}
+
+
+call-to-action {
+
+   background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);;
+   background-image: url('https://images.unsplash.com/photo-1500835556837-99ac94a94552?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');
+   background-position: center;
+   background-size: cover;
+   display:  flex;
+   flex-direction: column;
+
+   padding:  40px 15px 30px;
+}
+
+call-to-action:last-child {
+   background-image: url(https://images.unsplash.com/photo-1528543606781-2f6e6857f318?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=930&q=80);
+
+}
+
+card {
+   display:  flex;
+   flex-direction: column;
+
+   padding:  20px;
+   background-color: #fff;
+}
+
+
+card *:not(.calm-voice) {
+   text-transform: uppercase;
+}
+
+card h3 {
+   font-size:  16px;
+   font-weight: 700;
+   margin-bottom: 20px;
+   letter-spacing: 1px;
+}
+
+card .calm-voice {
+   font-size: 24px;
+   font-weight: 400;
+   color:  #000;
+}
+
+card .quiet-voice span {
+   font-size:  12px;
+   font-weight:  500;
+}
+
+
+card button {
+   border-radius: 0px;
+   width: min(100%, 400px);
+}
+
+
+@media (min-width:  768px) {
+   .arrive .container {
+      flex-direction: row;
+
+      min-height:  500px;
+   }
+
+   call-to-action {
+      padding:  35px;
+      justify-content: end;
+   }
+
+   card {
+      padding:  40px;
+   }
+
+
+
+
+}
+

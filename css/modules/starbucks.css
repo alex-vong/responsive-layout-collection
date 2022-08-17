@@ -1,0 +1,136 @@
+.starbucks .container {
+   text-align: center;
+   color:  var(--sb-text);
+
+   display:  flex;
+   flex-direction: column;
+   gap:  30px;
+}
+
+.starbucks picture {
+   padding-bottom:  8px;
+}
+
+
+/*button*/
+
+button {
+   padding:  7px 16px;
+   background-color: inherit;
+   color:  inherit;
+   font-size: 14px;
+   font-weight: 600;
+   font-family: 'Lato', serif;
+
+   border:  1px solid var(--sb-text);
+   border-radius: 15px;
+   letter-spacing: 0.5px;
+   margin-top: 32px;
+}
+
+.starbucks h2 + p {
+   margin-top:  10px;
+}
+
+
+
+
+.side-content button {
+   display:  flex;
+   align-self:  center;
+}
+
+.featured-product {
+   background: var(--sb-main-bg);
+   letter-spacing: 0.15em;
+}
+
+.featured-product .card-details {
+   padding:  32px 16px;
+   text-align: center;
+
+}
+
+.featured-product .card-details .attention-voice {
+   text-transform: uppercase;
+}
+
+.featured-product .card-details .calm-voice {
+   font-size:  22px;
+   font-weight: 500;
+   letter-spacing: 1px;
+}
+
+.side-content {
+   display:  flex;
+   flex-direction:  column;
+   gap: 30px;
+}
+
+.side-content .card-details {
+      display:  flex;
+   flex-direction:  column;
+   justify-content: center;
+}
+
+.rewards-card, .mobile-app {
+   background: var(--sb-secondary-bg);
+}
+
+.rewards-card .card-details, .mobile-app .card-details {
+   padding:  0 16px 32px;
+
+}
+
+.rewards-card .attention-voice, .mobile-app .attention-voice {
+   font-size:  22px;
+   font-weight: 700;
+}
+
+
+@media (min-width:  768px) {
+   .featured-product {
+      display:  flex;
+      flex-direction: row-reverse;
+      align-items:  center;
+   }
+
+   .featured-product .card-details {
+      padding:  32px 24px;
+      
+   }
+
+   .side-content {
+      flex-direction:  row;
+   }
+
+   .side-content .card-details {
+      display:  flex;
+      flex-direction:  column;
+      justify-content: space-between;
+   }
+
+   section + section {
+      margin:  0;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

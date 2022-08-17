@@ -1,0 +1,119 @@
+body {
+   --yellow:  #ffd724;
+   --aqua:  #4ad4de;
+   --blue: #6bbcff;
+   --purple:  #b28cf4;
+
+
+}
+
+.onfleet h2.section-heading, .onfleet .project-info {
+   width:  min(85%, 1100px);
+   margin:  30px auto 20px;
+}
+
+.onfleet inner-column{
+   width:  100%;
+}
+
+.onfleet .container {
+   color:  white;
+   padding:  0;
+background: linear-gradient(90deg, var(--yellow) 60%, var(--purple) 60%);
+}
+
+
+
+.onfleet picture img {
+   max-width:  400px;
+   min-height: 164px;
+}
+
+price-card {
+   display:  flex;
+   flex-direction: column;
+   padding:  20px 25px;
+}
+
+
+price-card-container {
+   padding:  30px 0;
+}
+
+
+price-card-container.Starter {
+   background-color: var(--yellow);
+}
+price-card.Starter {
+   background-color: var(--yellow);
+}
+
+price-card-container.Basic{
+   background-color: var(--aqua);
+}
+
+price-card.Basic{
+   background-color: var(--aqua);
+}
+
+
+price-card-container.Premium{
+   background-color: var(--blue);
+}
+
+price-card.Premium{
+   background-color: var(--blue);
+}
+
+price-card.Professional {
+   background-color: var(--purple);
+}
+
+
+price-card .quiet-voice {
+   font-size:  16px;
+}
+
+price-card span {
+   font-size:  25px;
+   display:  block;
+}
+
+price-card p.calm-voice {
+   font-size:  18px;
+}
+
+
+.onfleet button {
+   background-color: #f2f2f2;
+   color:  var(--purple);
+   border-radius: 5px;
+   border:  none;
+   padding:  10px 15px;
+}
+
+
+@media (min-width:  768px) {
+
+   .onfleet .container inner-column {
+      display:  flex;
+   /*   display:  grid;
+      grid-template-columns: repeat(4, 1fr );*/
+   }
+
+   .onfleet .container inner-column > * {
+      flex-basis: 100%;
+   }
+
+
+}
+
+
+@media (min-width:  1000px) {
+   .onfleet .container inner-column {
+      width:  min(90%, 1100px);
+      margin: auto;
+   }
+}
+
+
